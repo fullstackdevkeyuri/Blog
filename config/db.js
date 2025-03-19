@@ -7,7 +7,7 @@ const db=mongoose.connection;
 db.once("open",(err)=>{
     if(err){
         console.log("error");
-        return false
+        return false;
     }
     console.log("Db is connected");
 })
