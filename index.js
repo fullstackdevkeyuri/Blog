@@ -1,7 +1,7 @@
 
 const express=require("express");
 
-const port=8002;
+const port=9000;
 
 const app=express();
 
@@ -21,15 +21,7 @@ const LocalStrategy=require('./config/passport-local-strategy')
 
 app.use(express.urlencoded());
 
-// const db=require("./config/db");
-const mongoose=require('mongoose')
-
-mongoose.connect('mongodb+srv://boradkrishna940:ZYQJTHTvp81MCI9X@first.7vdki.mongodb.net/admindata',{
-
-}).then((res)=>console.log("db is connectd"))
-.catch((err)=>{console.log(err)
-})
-
+const db=require("./config/db");
 app.use(express.static(path.join(__dirname,"assets")));
 
 app.use("/Uploads",express.static(path.join(__dirname,"Uploads")))
@@ -54,7 +46,6 @@ app.use(flashMessages.setFlash)
 app.use(passport.setAuthUser)
 
 app.use("/",require("./routes/adminroutes"));
-// app.use("/category",require("./routes/categoryRoutes"));
 app.use('/category',require('./routes/categoryRoutes'))
 
 
