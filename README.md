@@ -1,11 +1,11 @@
-"This is a custom-built admin panel developed using HTML, CSS, JavaScript, and Node.js. It provides an intuitive interface for managing users, content, and settings efficiently. The panel includes features like authentication, role-based access control, and real-time data updates."
+"This admin panel is built using HTML, CSS, JavaScript, and Node.js, offering a seamless and intuitive interface for managing users, content, and settings. It includes essential features such as authentication, role-based access control, and real-time data updates to enhance efficiency."
 * Features:-<br>
-               - User authentication and role management<br>
-              -  Dashboard with analytics <br>
-              -  CRUD operations for users and content<br>
-              - Secure API integration with Node.js <br>
-                -  Responsive design for all devices <br>
+               - User Authentication & Role Management – Secure access with role-based permissions.<br>
+              -  Dashboard with Analytics – Gain insights through real-time data visualization. <br>
+              - CRUD Operations – Easily create, read, update, and delete users and content.<br>
+              - Secure API Integration – Powered by Node.js for smooth backend communication. <br>
+                - Responsive Design – Optimized for all screen sizes and devices. <br>
  * How to Use:-<br>
-        -Login as an admin to access the panel<br>
-        -Manage users, update settings, and monitor analytics<br>
-       - Perform CRUD operations through the interface
+        -Log in as an admin to access the panel securely.<br>
+        -Manage users, update settings, and track analytics with ease.<br>
+       - Perform CRUD operations on users and content through an intuitive interface.
